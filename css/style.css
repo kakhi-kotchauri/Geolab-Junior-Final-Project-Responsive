@@ -1,0 +1,2487 @@
+body {
+	overflow-x: hidden;
+ }
+
+/*ჰედერი*/
+
+.dropmenu {
+display: none;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 200;
+  height: 4.4vw;
+  width: 100%;
+  background-color: white;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+.logo-images {
+	width: 3%;
+	position: absolute;
+	margin-left: 1%;
+	margin-top: 0.7%;
+}
+
+
+
+.menu-parrent {
+	position: fixed;
+ width: 100%;
+ height: 10vw;
+ margin-left: 60%;
+ margin-top: 1%;
+
+}
+
+
+
+
+.menu {
+	vertical-align: top;
+	margin-right:1.2%;
+	display: inline-block;
+	font-size: 0.9vw;
+	color:black;
+/*	width: 3%;
+	height: 27%;*/
+	box-sizing: border-box;
+	padding-top: 0.7%;
+	text-align: center;
+	border-width: 0.01vw;
+	border-color: black;
+	font-family: Poppins;
+}
+
+
+
+
+.anim {
+	vertical-align: top;
+	margin-right:1.2%;
+	display: inline-block;
+	font-size: 0.9vw;
+	color:black;
+	width: 6%;
+	height: 24%;
+	box-sizing: border-box;
+	background-color: white;
+	padding-top: 0.8%;
+	text-align: center;
+	border: solid;
+	border-width: 0.01vw;
+	border-color: black;
+	font-family: Poppins;
+}
+
+.anim:hover {
+	transition-duration: 0.33s;
+	vertical-align: top;
+	margin-right:1.2%;
+	display: inline-block;
+	font-size: 0.9vw;
+	color:white;
+	width: 6%;
+	height: 24%;
+	box-sizing: border-box;
+	background-color: black;
+	padding-top: 0.8%;
+	text-align: center;
+	border: solid;
+	border-width: 0.01vw;
+	border-color: black;
+	font-family: Poppins;
+
+}
+
+
+
+/*პირველი ბანერი*/
+
+.ban {
+   
+}
+
+.banner1{
+	width: 100%;
+}
+
+.banner-text {
+	position: absolute;
+	top: 0;
+	margin-top: 23%;
+	margin-left: 9%;
+	font-size: 3vw;
+	font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+
+}
+
+/* insp */
+.span46 {
+	color: white;
+   text-shadow:
+   -0.05vw -0.05vw 0 #000,  
+    0.05vw -0.05vw 0 #000,
+    -0.05vw 0.05vw 0 #000,
+     0.05vw 0.05vw 0 #000;
+}
+
+.banner-text1 {
+	position: absolute;
+	color: #97d1c4;
+	top: 0;
+	margin-top: 27%;
+	margin-left: 9.3%;
+	position: absolute;
+	font-size: 1.35vw;
+	font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+}
+
+
+
+/*პირველი სურათი*/
+
+.first-art-parret {
+	width: 100%;
+	height: 35vw;
+	box-sizing: border-box;
+/*	background-color: #ebebeb;*/
+	position: relative;
+}
+
+.pic1 {
+	margin-left:22%;
+	margin-top: 8%;
+	width: 29%;
+}
+
+
+
+/*პირველი სურათის გვერდითა ტექსტი*/
+
+
+.art1 {
+	display: inline-block;
+	position: absolute;
+	margin-left: 6%;
+	
+}
+
+
+.pt1 {
+	margin-top: 20%;
+	font-family: Poppins;
+	color: #696969;
+	margin-bottom: 1.3%;
+	font-size: 0.7vw;
+	width: 21%;
+	height: 2vw;
+	box-sizing: border-box;
+	background-color:  #e6f0ee;
+	text-align: center;
+	padding-top: 1.5%;
+  font-weight: 900;
+}
+
+
+.pt2 {
+   font-size: 1.5vw;
+	font-family: 'Popp', sans-serif;
+  font-weight: 900;
+  line-height: 1.3;
+  margin-bottom: 4%;
+  display: inline-block;
+
+}
+
+
+.pt3 {
+	width: 50%;
+	font-size: 0.75vw;
+	font-family: Poppins;
+	line-height: 1.8 ;
+	color: #696969;
+}
+
+
+
+/*ბმულზე გადასასვლელი ღილაკი */
+
+.ss2{
+	font-family: Poppins;
+	vertical-align: top;
+	font-size: 0.97vw;
+	color: white;
+	background-color: black;
+	text-decoration: none;
+	display: inline-block;
+	width: 15.5%;
+	height: 2.5vw;
+	box-sizing: border-box;
+	border: solid;
+	border-width: 0.03%;
+	border-color: black;
+	text-align: center;
+	padding-top: 1.4%;
+	margin-top: 3.3%;
+}
+
+.ss2:hover{
+	font-size: 0.97vw;
+	font-family: Poppins;
+	text-decoration: none;
+	transition-duration: 0.5s;
+	vertical-align: top;
+	display: inline-block;
+	background-color: white;
+	color: black;
+	width: 15.5%;
+	height: 2.5vw;
+	border: solid;
+	border-color: black;
+	border-width: 0.002vw;
+	box-sizing: border-box;
+	text-align: center;
+	padding-top: 1.7%;
+	margin-top: 3.3%;
+}
+
+/*დაბლითა მენიუ*/
+
+
+
+.menu-container2 {
+	vertical-align: top;
+	margin-top: -10px;
+	margin-left: 29%;
+	display: inline-block;
+	font-size: 0.8vw;
+	font-family: Poppins;
+	width: 40%;
+	height: 2.3vw;
+/*	box-sizing: border-box;
+	background-color: blue;*/
+	text-align: center;
+}
+
+.menu2 {
+	margin-left: 3%;
+	text-decoration: none;
+	color: black;
+}
+
+.active1 {
+	text-decoration: none;
+	color: white;
+}
+
+.active {
+	margin-left: 1%;
+	text-decoration: none;
+	color: white;
+	background-color: black;
+	box-sizing: border-box;
+	width: 6%;
+	height: 1.6vw;
+	padding-top: 1.4%;
+	text-align: center;
+	display: inline-block;
+
+}
+
+.p1-sec2 {
+	vertical-align: top;
+	font-size: 1.2vw;
+	display: inline-block;
+	font-family: Poppins ;
+}
+
+.p-sec2 {
+	color: #696969;
+	margin-bottom: 1.5%;
+	font-size: 0.9vw;
+	width: 9%;
+	height: 1.6vw;
+	box-sizing: border-box;
+	background-color: #93c2be;
+	text-align: center;
+	padding-top: 0.6%;
+	font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+}
+
+
+/*სურათები შუაში*/
+
+.sec2 {
+	margin-left: 22%;
+	margin-top: 6%;
+}
+
+.div-pics {
+	margin-top: 5%;
+}
+
+ .pics {
+ display: inline-block;
+  width:22%;
+  overflow:hidden;
+  margin-right: 3%;
+  margin-bottom: 4%;
+}
+
+img.images{
+    width: 100%;
+    transition: transform 0.35s ease;
+    transform-origin: 50% 50%;
+    z-index: 1;
+  }
+
+img.images:hover{
+    transform: scale(1.13);
+    width: 100%;
+    z-index: 1;
+  }
+
+  .section1 {
+  	vertical-align: top;
+  	background-color: #f9f9f9;
+    width: 100%;
+    /*height: 70vw;*/
+    box-sizing: border-box;
+    margin-top:6%;
+    padding-top: 1%;
+  }
+
+
+
+
+/*  პროგრესბარები შუაში*/
+
+.progresbar-sec {
+	position: relative;
+	background-color: transparent;
+	box-sizing: border-box;
+	width: 100;	
+	height: 20vw;
+	margin-top: 4%;
+}
+
+.polazki {
+	display: inline-block;
+	margin-top: 4%;
+	margin-left: 22%;
+}
+
+.p2 {
+	font-size: 1.8vw;
+	line-height: 1.3; 
+}
+
+.p3 {
+	color: #707070;
+	font-family: Poppins;
+   font-size:0.84vw;
+   line-height: 2.2;
+   margin-top: 3.5%;
+}
+
+.bidzo {
+	margin-bottom: 2%;
+	font-size: 1vw;
+	font-family: Poppins;
+}
+
+
+.progres-span {
+	margin-left: 91%;
+}
+
+
+.prog1-par {
+	position: absolute;
+	top: 0;
+	width: 24%;
+	vertical-align: top;
+	margin-top: 4%;
+	margin-bottom: 1%;
+	margin-left: 54%;
+}
+
+
+  #progressbar1 {
+  background-color: #cfcfcf;
+  border-radius: 0.01vw;
+  padding: 0.07vw;
+  width: 100%;
+  height: 0.13vw;
+  margin-bottom: 7.5%;
+}
+
+#progressbar1>div {
+  background-color: black;
+  width: 40%;
+  height: 0.09vw;
+  border-radius: 1px;
+}
+
+
+
+  #progressbar2 {
+  background-color: #cfcfcf;
+  border-radius: 0.01vw;
+  padding: 0.06vw;
+  width: 100%;
+  height: 0.13vw;
+  margin-bottom: 7.5%;
+}
+
+#progressbar2>div {
+  background-color: black;
+  width: 80%;
+  height: 0.13vw;
+  border-radius: 1px;
+}
+
+
+
+
+  #progressbar3 {
+  background-color: #cfcfcf;
+  border-radius: 0.01vw;
+  padding: 0.05vw;
+  width: 100%;
+  height: 0.13vw;
+  margin-bottom: 7.5%;
+}
+
+#progressbar3>div {
+  background-color: black;
+  width: 70%;
+  height: 0.13vw;
+  border-radius: 1px;
+}
+
+
+
+/*მეორე ბანერი*/
+
+.separator {
+	color: transparent;
+	font-size: 1vw;
+	width: 100%;
+}
+
+.bn2-container {
+	position: relative;
+	margin-top: 4%;
+}
+
+
+
+.iasha021 {
+	position: relative;
+	top: 0;
+	width: 100%;
+	border: solid;
+	border-color: black;
+	border-width: 0.01vw;
+}
+
+
+ /* მეორე ბანერის კონტენტი*/
+
+
+.ban2-text {
+	position: absolute;
+	top: 0;
+	color: black;
+	margin-top: 26.8%;
+	margin-left: 34.3%;
+	font-size: 3.1vw;
+	/*font-family: Poppins;*/
+    font-weight: 2000;
+    width: 50vw;
+    line-height: 0.8;
+}
+
+
+.ban2-text-span{
+	margin-left: 7%;
+}
+
+
+ .pics-ban {
+ position: absolute;
+ top: 0;
+ display: inline-block;
+ width:10%;
+ overflow:hidden;
+ margin-left: 44%;
+ margin-top: 4%;
+ 
+}
+
+img.images-ban{
+    width: 100%;
+    transition: transform 0.4s ease;
+    transform-origin: 50% 50%;
+    z-index: 1;
+  }
+
+img.images-ban:hover{
+    transform: scale(1.2);
+    width: 100%;
+    z-index: 1;
+  }
+
+
+
+  .div-but2 {
+	position: absolute;
+	color: #97d1c4;
+	top: 0;
+	margin-top: 35%;
+	margin-left: 44%;
+
+}
+
+
+
+
+.but-ply2 {
+ display: inline-block;
+  overflow:hidden;
+}
+
+
+
+
+ .baner2-button-parrent {
+ 	position: absolute;
+ 	
+ }
+
+
+  .baner2-button{
+	font-family: Poppins;
+	vertical-align: top;
+	font-size: 1.2vw;
+	color: #7aa190;
+	background-color: transparent;
+	text-decoration: none;
+	display: inline-block;
+	width: 10.3vw;
+	height: 3.2vw;
+	box-sizing: border-box;
+	border: solid;
+	border-width: 0.01vw;
+	border-color: white;
+	text-align: center;
+	padding-top: 1vw;
+	
+}
+
+.baner2-button:hover{
+	transition-duration: 0.3s;
+font-family: Poppins;
+	vertical-align: top;
+	font-size: 1.2vw;
+	color: black;
+	background-color: white;
+	text-decoration: none;
+	display: inline-block;
+	width: 10.3vw;
+	height: 3.2vw;
+	box-sizing: border-box;
+	border: solid;
+	border-width: 0.01vw;
+	border-color: white;
+	text-align: center;
+	padding-top: 1vw;
+}
+
+
+
+
+/*მომხმარებელთა გამოხმაურების სექცია*/
+
+
+
+
+
+
+#slideshow {
+	display: inline-block;
+  overflow: hidden;
+  height: 30vw;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.slide-wrapper {
+  width: 200%;
+  -webkit-animation: slide 14s ease infinite;
+}
+
+.slide {
+  float: left;
+  height: 24vw;
+  width: 50%;
+}
+
+
+.slide-img {
+	margin-top: 3.3%;
+  margin-left: 3%;
+  width: 20%;
+}
+
+.slide-text-container {
+	vertical-align: top;
+	display: inline-block;
+	margin-top: 6%;
+	margin-left: 2%;
+}
+
+.slide-img2 {
+	margin-top: 3.3%;
+  margin-left: 3%;
+  width: 20%;
+}
+
+.slide-text2 {
+	margin-bottom: 4%;
+	vertical-align: top;
+  font-size: 1.2vw;
+  font-family: Poppins;
+}
+
+
+.slide-text3{
+	margin-bottom: 3%;
+	vertical-align: top;
+  font-size: 1vw;
+  font-family: Poppins;
+}
+
+
+
+.slide-text {
+	color: #707070;
+	text-align: center;
+  display: block;
+  font-family: Poppins;
+  font-size: 1.1vw;
+  margin-top: 1.3%;
+  line-height: 1.6;
+  width: 66%;
+  height: 12vw;
+}
+
+
+
+@keyframes slide {
+
+  0%, 50% {margin-left: 0px;}
+  55%, 95% {margin-left: -100%;}
+
+}
+
+
+
+
+ .section2 {
+  	vertical-align: top;
+  	background-color: #f9f9f9;
+    width: 100%;
+    height: 27vw;
+    box-sizing: border-box;
+    margin-top: 5%;
+    padding-top: 1%;
+    margin-bottom: 5%;
+  }
+
+
+.sec2-content {
+	margin-top: 3%;
+	margin-left: 22%;
+}
+
+
+.low-parrent {
+	vertical-align: top;
+	display: inline-block;
+	margin-left: 0.01%;
+	width: 40%;
+}
+
+
+.lower-text {
+	vertical-align: top;
+	margin-left: 0.01%;
+}
+
+.l2-br {
+	display: none;
+}
+
+
+.iasas {
+	vertical-align: top;
+	width: 70%;
+	display: inline-block;
+margin-top: 6%;
+margin-left: 7%;
+font-size: 1.8vw;
+line-height: 1.3;
+}
+
+
+.l1 {
+	color: #696969;
+	font-size: 0.9vw;
+	width: 23%;
+	height: 1.6vw;
+	box-sizing: border-box;
+	background-color: #93c2be;
+	text-align: center;
+	padding-top: 1.3%;
+	font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  margin-bottom: 3%;
+}
+
+.l2 {
+	font-size: 1.8vw;
+	font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  line-height: 1.3;
+  margin-bottom: 1%;
+}
+
+
+
+/*ლეგენდარული ელექტროინჟინრების გვერდი */
+
+.secff {
+	margin-left: 22%;
+	margin-top: 2%;
+}
+
+
+
+.son {
+	color: #696969;
+	margin-bottom: 2%;
+	font-size: 0.9vw;
+	width: 9%;
+	height: 1.6vw;
+	box-sizing: border-box;
+	background-color: #93c2be;
+	text-align: center;
+	padding-top: 0.6%;
+	font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+}
+
+
+.son2 {
+	vertical-align: top;
+	font-size: 1.2vw;
+	margin-bottom: 4%;
+	display: inline-block;
+	font-family: Poppins ;
+}
+
+
+
+.l-pics {
+ display: inline-block;
+  width:22%;
+  overflow:hidden;
+  margin-right: 3%;
+  margin-bottom: 4%;
+}
+
+img.l-images{
+	position: relative;
+    width: 100%;
+    transition: transform 0.5s ease;
+    transform-origin: 50% 50%;
+    z-index: 1;
+  }
+
+img.l-images:hover{
+    transform: scale(1.15) rotate(2deg);
+    width: 100%;
+    z-index: 1;
+  }
+
+  .l-text {
+  	margin-top: 1%;
+     position: absolute;
+     font-size: 1.4vw;
+  }
+ 
+    .l-text1 {
+    	font-size: 0.9vw;
+    margin-top: 3.4%;
+     position: absolute;
+  }
+
+
+
+/*მესამე ბანერი*/
+
+
+.ban3-container {
+	margin-top: 10%;
+	width: 100%;
+	text-align: center;
+}
+
+.ban3{
+	position: relative;
+	text-align: center;
+}
+
+
+.banner3 {
+	width: 99%;
+	border: solid;
+	border-color: black;
+}
+
+
+ /* მესამე ბანერის კონტენტი*/
+
+.banner-text3 {
+	color: white;
+	top: 0;
+	margin-top: 26%;
+	margin-left: 30%;
+	position: absolute;
+	font-size: 5vw;
+	font-family: Poppins
+  font-weight: 2000;
+  width: 50vw;
+  line-height: 0.8;
+}
+
+
+.div-but {
+	position: absolute;
+	color: #97d1c4;
+	top: 0;
+	margin-top: 33%;
+	margin-left: 47%;
+
+}
+
+
+
+
+.but-ply {
+ display: inline-block;
+  overflow:hidden;
+}
+
+
+
+
+ .baner3-button-parrent {
+ 	position: absolute;
+ 	
+ }
+
+
+  .baner3-button{
+	font-family: Poppins;
+	vertical-align: top;
+	font-size: 1.2vw;
+	color: black;
+	background-color: white;
+	text-decoration: none;
+	display: inline-block;
+	width: 12vw;
+	height: 2.8vw;
+	box-sizing: border-box;
+	border: solid;
+	border-width: 2px;
+	border-color: white;
+	text-align: center;
+	padding-top: 0.7vw;
+	
+}
+
+.baner3-button:hover{
+	transition-duration: 0.3s;
+    font-family: Poppins;
+	vertical-align: top;
+	font-size: 1.2vw;
+	color: black;
+	background-color: transparent;
+	text-decoration: none;
+	display: inline-block;
+	width: 12vw;
+	height: 2.8vw;
+	box-sizing: border-box;
+	border: solid;
+	border-width: 2px;
+	border-color: white;
+	text-align: center;
+	padding-top: 0.7vw;
+}
+
+
+.botom-title {
+	width: 100%;
+	position: absolute;
+	top: 0;
+}
+
+
+.bottom {
+	margin-left: -75%;
+	color: black;
+	font-size: 1.2vw;
+	font-family: Poppins;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 700px) {
+
+
+body {
+	overflow-x: hidden;
+ }
+
+
+
+
+/*ჰედერი*/
+
+header {
+ display: none;
+}
+
+.dropmenu-parrent {
+	position: fixed;
+	z-index: 45;
+	width: 100%;
+	height: 7.5vw;
+	background-color: white;
+}
+
+
+.dropmenu {
+  display: inline-block;
+  width: 7%;
+  margin-top: 0.3%;
+  margin-left: 1.5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.dropbutton {
+
+}
+
+ .dimage {
+
+ top: 0;
+ display: inline-block;
+ width:100%;
+ height: 6vw;
+ overflow:hidden;
+ 
+}
+
+
+img.dimages{
+	
+    width: 100%;
+    transition: transform 0.5s ease;
+    transform-origin: 50% 50%;
+    z-index: 1;
+  }
+
+img.dimages:hover{
+    transform: scale(1.1);
+    width: 100%;
+    z-index: 1;
+  }
+
+/*.drop-img {
+	width: 100%;
+}*/
+
+.div-menu {
+	padding-top: 2%;
+	color: black;
+  font-size: 4.5vw;
+  font-family: Poppins;
+  width: 90%;
+  height: 5.8vw;
+  box-sizing: border-box;
+  background-color: #c2c2c2;
+  margin-bottom: 3%;
+  margin: 0 auto;
+  margin-bottom: 7%;
+}
+
+.div-menu:hover {
+	transition-duration: 0.15s;
+	background-color: black;
+	width: 100%;
+	color: white;
+}
+
+.dropdown-content {
+	text-align: center;
+  display: none;
+  width: 340%;
+  height: 55vw;
+  background-color:  rgba(3, 152, 92, 0.97);
+  box-sizing: border-box;
+  padding-top: 30%;
+}
+
+
+.dropmenu:hover .dropdown-content  {
+       
+       display: block;
+}
+
+
+
+.logo-images {
+	width: 4%;
+	position: absolute;
+	margin-left: 1.5%;
+	margin-top: 0.7%;
+}
+
+
+
+
+
+
+
+
+/*პირველი ბანერი*/
+
+.ban {
+   
+}
+
+.banner1{
+	width: 100%;
+}
+
+.banner-text {
+	position: absolute;
+	top: 0;
+	margin-top: 23%;
+	margin-left: 3%;
+	font-size: 4.7vw;
+	font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+
+.banner-text1 {
+	position: absolute;
+	color: #97d1c4;
+	top: 0;
+	margin-top: 28%;
+	margin-left: 3%;
+	position: absolute;
+	font-size: 3.5vw;
+	font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+}
+
+
+
+
+
+
+/*პირველი სურათი*/
+
+.first-art-parret {
+	width: 100%;
+	height: 140vw;
+	box-sizing: border-box;
+	position: unset;
+	text-align: center;
+}
+
+.pic1 {
+	display: block;
+	margin: 0 auto;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	width: 95%;
+}
+
+/*.br {
+	display: none;
+}*/
+
+
+/*პირველი სურათის გვერდითა ტექსტი*/
+
+
+.art1 {
+	display: block;
+	position: unset;
+	margin-left: 0.1%;
+	margin-right: 0.1%;
+	
+}
+
+
+.pt1 {
+	margin: 0 auto;
+	font-family: Poppins;
+	color: #696969;
+	margin-bottom: 1.5%;
+	font-size: 3vw;
+	width: 90%;
+	height: 4.5vw;
+	box-sizing: border-box;
+	background-color:  #e6f0ee;
+	text-align: center;
+	padding-top: 0.7%;
+  font-weight: 900;
+}
+
+
+.pt2 {
+   font-size: 4.5vw;
+	font-family: 'Popp', sans-serif;
+  font-weight: 900;
+  line-height: 1.3;
+  margin-bottom: 1.2%;
+  display: inline-block;
+
+}
+
+
+.pt3 {
+	width: 90%;
+	height: 35vw;
+	font-size: 3.3vw;
+	font-family: Poppins;
+	line-height: 1.8 ;
+	color: #696969;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+
+
+
+
+/*ბმულზე გადასასვლელი ღილაკი */
+
+.ss2{
+	font-family: Poppins;
+	vertical-align: top;
+	font-size: 3.5vw;
+	color: white;
+	background-color: black;
+	text-decoration: none;
+	display: inline-block;
+	width: 30%;
+	height: 5vw;
+	box-sizing: border-box;
+	border: solid;
+	border-width: 0.03%;
+	border-color: black;
+	text-align: center;
+	padding-top: 0.7%;
+	margin-top: 3.3%;
+	margin-right: 0.01%;
+}
+
+.ss2:hover{
+	font-size: 3.5vw;
+	font-family: Poppins;
+	text-decoration: none;
+	transition-duration: 0.5s;
+	vertical-align: top;
+	display: inline-block;
+	background-color: white;
+	color: black;
+	width: 30%;
+	height: 5vw;
+	border: solid;
+	border-color: black;
+	border-width: 0.002vw;
+	box-sizing: border-box;
+	text-align: center;
+	padding-top: 1%;
+	margin-top: 3.3%;
+	margin-right: 0.01%;
+}
+
+
+
+
+
+
+/*დაბლითა მენიუ*/
+
+
+
+.menu-container2 {
+	vertical-align: top;
+	margin-top: 2%;
+	margin-bottom: 4%;
+	margin-left: 0.01%;
+	margin-right: 5%;
+	display: block;
+	font-size: 3.8vw;
+	font-family: Poppins;
+	width: 90%;
+	height: 7vw;
+	margin-bottom: 0.5%;
+	box-sizing: border-box;
+	/*background-color: blue;*/
+}
+
+.menu2 {
+	margin-left: 1%;
+	text-decoration: none;
+	color: black;
+}
+
+.active1 {
+	vertical-align: middle;
+	text-decoration: none;
+	color: white;
+}
+
+.active {
+	vertical-align: middle;
+	margin-top: %;
+	margin-bottom: 1%;
+	margin-left: 1%;
+	text-decoration: none;
+	color: white;
+	background-color: black;
+	box-sizing: border-box;
+	width: 8%;
+	height: 5vw;
+	padding-top: 0.7%;
+	text-align: center;
+	display: inline-block;
+
+}
+
+.p1-sec2 {
+	vertical-align: top;
+	margin-left: 1%;
+	margin-bottom: 5%;
+	vertical-align: top;
+	font-size: 4vw;
+	display: none;
+	font-family: Poppins ;
+}
+
+.p-sec2 {
+	margin-left: 5%;
+	display: inline-block;
+	vertical-align: top;
+	color: #696969;
+	margin-bottom: 1%;
+	font-size: 4vw;
+	width: 20%;
+	height: 5vw;
+	box-sizing: border-box;
+	background-color: #93c2be;
+	text-align: center;
+	padding-top: 0.6%;
+	font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+}
+
+
+/*სურათები შუაში*/
+
+.sec2 {
+	margin: 0 auto;
+	margin-top: 6%;
+}
+
+
+ .pics {
+ 	/*margin: 0 auto; */
+ display: block;
+  width:95%;
+  overflow:hidden;
+  margin-right: 3%;
+  margin-left: 2.5%;
+  margin-bottom: 3%;
+}
+
+img.images{
+    width: 100%;
+    transition: transform 0.4s ease;
+    transform-origin: 50% 50%;
+    z-index: 1;
+  }
+
+img.images:hover{
+    transform: scale(1.2);
+    width: 100%;
+    z-index: 1;
+  }
+
+  .section1 {
+  	/*text-align: center;*/
+  	vertical-align: top;
+  	background-color: #ebebeb;
+    width: 100%;
+    /*height: 600vw;*/
+    box-sizing: border-box;
+    margin-top: 10%;
+    padding-top: 1%;
+  }
+
+
+
+
+
+
+
+/*  პროგრესბარები შუაში*/
+
+.progresbar-sec {
+	position: relative;
+	background-color: transparent;
+	/*background-color: #ebebeb;*/
+	box-sizing: border-box;
+	width: 100;	
+	height: 95vw;
+	margin-top: 15%;
+	/*text-align: center;*/
+}
+
+.polazki {
+	text-align: center;
+	display: block;
+	margin-top: 3%;
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-bottom: 5%;
+}
+
+.p2 {
+	font-size: 5vw;
+	line-height: 1.3; 
+}
+
+.p3 {
+	color: #707070;
+   font-size:4vw;
+   line-height: 1.3;
+   margin-top: 2%;
+}
+
+.bidzo {
+	/*margin-left: -65%;*/
+	margin-bottom: 2%;
+	font-size: 3.5vw;
+	font-family: Poppins;
+}
+
+
+.progres-span {
+	margin-left: 85%;
+}
+
+
+.prog1-par {
+	position: absolute;
+	top: 0;
+	width: 90%;
+	vertical-align: top;
+	margin-top: 50%;
+	margin-bottom: 1%;
+	margin-left: 5%;
+}
+
+
+  #progressbar1 {
+  background-color: #cfcfcf;
+  border-radius: 0.01vw;
+  padding: 0.1vw;
+  width: 100%;
+  margin-bottom: 7.5%;
+}
+
+#progressbar1>div {
+  background-color: black;
+  width: 40%;
+  height: 0.4vw;
+  border-radius: 1px;
+}
+
+
+
+  #progressbar2 {
+  background-color: #cfcfcf;
+  border-radius: 0.01vw;
+  padding: 0.1vw;
+  width: 100%;
+  margin-bottom: 7.5%;
+}
+
+#progressbar2>div {
+  background-color: black;
+  width: 80%;
+  height: 0.4vw;
+  border-radius: 1px;
+}
+
+
+
+
+  #progressbar3 {
+  background-color: #cfcfcf;
+  border-radius: 0.01vw;
+  padding: 0.1vw;
+  width: 100%;
+  margin-bottom: 7.5%;
+}
+
+#progressbar3>div {
+  background-color: black;
+  width: 70%;
+  height: 0.44vw;
+  border-radius: 1px;
+}
+
+
+
+
+
+
+/*მეორე ბანერი*/
+
+.separator {
+	color: transparent;
+	font-size: 1vw;
+	width: 100%;
+}
+
+.bn2-container {
+	position: relative;
+	margin-top: 20%;
+}
+
+
+
+.iasha021 {
+	position: relative;
+	top: 0;
+	width: 99%;
+	border: solid;
+	border-color: black;
+	border-width: 0.01vw;
+}
+
+
+ /* მეორე ბანერის კონტენტი*/
+
+
+.ban2-text {
+	text-align: center;
+	background-color: rgba(215, 255, 90, 0.46);
+	position: absolute;
+	top: 0;
+	color: black;
+	margin-top: 15%;
+	margin-left: 1.6%;
+	margin-right: 10%;
+	font-size: 6vw;
+	/*font-family: Poppins;*/
+    font-weight: 2000;
+    width: 96%;
+    height: 16vw;
+    padding-top: 5%;
+    box-sizing: border-box;
+    line-height: 0.8;
+    border-radius: 0.6vw;
+}
+
+
+.ban2-text-span{
+	margin-left: 7%;
+}
+
+
+ .pics-ban {
+ 	vertical-align: top;
+ position: absolute;
+ top: 0;
+ display: block;
+ width:10%;
+ overflow:hidden;
+ margin-left: 43.7%;
+ margin-top: 4%;
+ 
+}
+
+img.images-ban{
+    width: 100%;
+    transition: transform 0.4s ease;
+    transform-origin: 50% 50%;
+    z-index: 1;
+  }
+
+img.images-ban:hover{
+    transform: scale(1.2);
+    width: 100%;
+    z-index: 1;
+  }
+
+
+
+  .div-but2 {
+	position: absolute;
+	color: #97d1c4;
+	top: 0;
+	margin-top: 32%;
+	margin-left: 37%;
+
+}
+
+
+
+
+.but-ply2 {
+ display: inline-block;
+  overflow:hidden;
+}
+
+
+
+
+ .baner2-button-parrent {
+ 	position: absolute;
+ 	
+ }
+
+
+  .baner2-button{
+	font-family: Poppins;
+	vertical-align: top;
+	font-size: 3.5vw;
+	color: #7aa190;
+	background-color: rgba(213, 213, 213, 0.80);
+	text-decoration: none;
+	display: inline-block;
+	width: 25vw;
+	height: 6vw;
+	box-sizing: border-box;
+	border: solid;
+	border-width: 0.01vw;
+	border-color: white;
+	text-align: center;
+	padding-top: 1.2vw;
+	
+}
+
+.baner2-button:hover{
+	transition-duration: 0.3s;
+font-family: Poppins;
+	vertical-align: top;
+	font-size: 3.5vw;
+	color: black;
+	background-color: white;
+	text-decoration: none;
+	display: inline-block;
+	width: 25vw;
+	height: 6vw;
+	box-sizing: border-box;
+	border: solid;
+	border-width: 0.01vw;
+	border-color: white;
+	text-align: center;
+	padding-top: 1vw;
+}
+
+
+
+
+/*მომხმარებელთა გამოხმაურების სექცია*/
+
+
+
+
+
+
+
+
+
+#slideshow {
+  overflow: hidden;
+  height: 65vw;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.slide-wrapper {
+  width: 200%;
+  -webkit-animation: slide 14s ease infinite;
+}
+
+.slide {
+  float: left;
+  height: 63vw;
+  width: 50%;
+}
+
+
+.slide-img {
+	margin-top: 6%;
+  margin-left: 3%;
+  width: 27%;
+}
+
+.slide-text-container {
+	vertical-align: top;
+	display: inline-block;
+	margin-top: 13.5%;
+	margin-left: 2%;
+}
+
+.slide-img2 {
+	margin-top: 6%;
+  margin-left: 3%;
+  width: 27%;
+}
+
+.slide-text2 {
+	margin-bottom: 4%;
+	vertical-align: top;
+  font-size: 3.5vw;
+  font-family: Poppins;
+}
+
+
+.slide-text3{
+	margin-bottom: 3%;
+	vertical-align: top;
+  font-size: 3vw;
+  font-family: Poppins;
+}
+
+
+
+.slide-text {
+	margin: 0 auto;
+	color: #707070;
+	text-align: center;
+  display: block;
+  font-family: Poppins;
+  font-size: 3.7vw;
+  margin-top: 1.3%;
+  line-height: 1.6;
+  width: 97%;
+  height: 30vw;
+}
+
+
+
+@keyframes slide {
+
+  0%, 50% {margin-left: 0px;}
+  55%, 95% {margin-left: -100%;}
+
+}
+
+
+
+
+ .section2 {
+ 	overflow: hidden;
+  	vertical-align: top;
+  	background-color: #f9f9f9;
+    width: 100%;
+    height: 94vw;
+    box-sizing: border-box;
+    margin-top: 5%;
+    padding-top: 3%;
+    margin-bottom: 5%;
+  }
+
+
+.sec2-content {
+	margin-top: 0.01%;
+	margin-left: 0.01%;
+}
+
+
+.low-parrent {
+	vertical-align: top;
+	display: block;
+	margin-left: 6.4%;
+	width: 100%;
+}
+
+
+.lower-text {
+	vertical-align: top;
+	margin-left: 0.01%;
+}
+
+.l2-br {
+	display: none;
+}
+
+
+.iasas {
+	vertical-align: top;
+	width: 70%;
+	display: inline-block;
+margin-top: 6%;
+margin-left: 7%;
+font-size: 1.8vw;
+line-height: 1.3;
+}
+
+
+.l1 {
+	color: #696969;
+	font-size: 2.9vw;
+	width: 16%;
+	height: 4.3vw;
+	box-sizing: border-box;
+	background-color: #93c2be;
+	text-align: center;
+	padding-top: 0.8%;
+	font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  margin-bottom: 3%;
+}
+
+.l2 {
+	font-size: 6vw;
+	font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  line-height: 1.3;
+  margin-bottom: 1%;
+}
+
+
+
+
+
+
+
+
+
+/*ლეგენდარული ელექტროინჟინრების გვერდი */
+
+.secff {
+	margin-left: 4%;
+	margin-right: 4%;
+	margin-top: 2%;
+}
+
+
+
+.son {
+	margin-left: 2.5%;
+	color: #696969;
+	margin-bottom: 2%;
+	font-size: 3vw;
+	width: 17%;
+	height: 4vw;
+	box-sizing: border-box;
+	background-color: #93c2be;
+	text-align: center;
+	padding-top: 0.6%;
+	font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+}
+
+
+.son2 {
+	margin-left: 2.5%;
+	vertical-align: top;
+	font-size: 3vw;
+	margin-bottom: 4%;
+	display: inline-block;
+	font-family: Poppins ;
+}
+
+.div-pics2 {
+	width: 100%;
+}
+
+
+.l-pics {
+ display: block;
+  width:100%;
+  overflow:hidden;
+  margin-right: 0.01%;
+  margin-left: 0.01%;
+  margin-bottom: 15%;
+}
+
+img.l-images{
+	position: relative;
+    width: 100%;
+    transition: transform 0.4s ease;
+    transform-origin: 50% 50%;
+    z-index: 1;
+  }
+
+img.l-images:hover{
+    transform: scale(1.15) rotate(2deg);
+    width: 100%;
+    z-index: 1;
+  }
+
+  .l-text {
+  	margin-top: 1%;
+     position: absolute;
+     font-size: 5vw;
+  }
+ 
+    .l-text1 {
+    	font-size: 5vw;
+    margin-top: 6%;
+     position: absolute;
+  }
+
+
+
+
+
+
+/* მესამე ბანერის კონტენტი*/
+
+.banner-text3 {
+	color: white;
+	top: 0;
+	margin-top: 16%;
+	margin-left: 8%;
+	position: absolute;
+	font-size: 8vw;
+	font-family: Poppins;
+  font-weight: 2000;
+  width: 90%;
+  line-height: 0.8;
+}
+
+
+.div-but {
+	position: absolute;
+	color: #97d1c4;
+	top: 0;
+	margin-top: 30%;
+	margin-left: 37%;
+
+}
+
+
+
+
+.but-ply {
+ display: inline-block;
+  overflow:hidden;
+}
+
+
+
+
+ .baner3-button-parrent {
+ 	position: absolute;
+ 	
+ }
+
+
+  .baner3-button{
+	font-family: Poppins;
+	vertical-align: top;
+	font-size: 4vw;
+	color: black;
+	background-color: white;
+	text-decoration: none;
+	display: inline-block;
+	width: 22vw;
+	height: 4.3vw;
+	box-sizing: border-box;
+	border: solid;
+	border-width: 2px;
+	border-color: white;
+	text-align: center;
+	padding-top: 0.1vw;
+	
+}
+
+.baner3-button:hover{
+	transition-duration: 0.3s;
+    font-family: Poppins;
+	vertical-align: top;
+	font-size: 4vw;
+	color: black;
+	background-color: transparent;
+	text-decoration: none;
+	display: inline-block;
+	width: 22vw;
+	height: 4.3vw;
+	box-sizing: border-box;
+	border: solid;
+	border-width: 2px;
+	border-color: white;
+	text-align: center;
+	padding-top: 0.01vw;
+}
+
+
+.botom-title {
+	width: 100%;
+	position: absolute;
+	top: 0;
+}
+
+
+.bottom {
+	margin-left: -75%;
+	color: black;
+	font-size: 1.2vw;
+	font-family: Poppins;
+}
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*რეგისტრაციის ფორმა*/
+
+.body-form {
+  width: 100%;
+  height: 50vw;
+  background-color: #c3ded8;
+  overflow-y: hidden;
+}
+
+input {
+	/*border-radius: 0.8vw;*/
+}
+
+.form-parrent {
+	position: relative;
+}
+
+.form-background {
+	width: 100%;
+  height: 53vw;
+}
+
+.title {
+	font-size: 3vw;
+	margin-top: 1%;
+	margin-left: 4%;
+	font-family: Poppins;
+}
+
+
+.r-content {
+	margin-top: 1%;
+}
+
+.lab-s {
+	vertical-align: top;
+}
+
+.div-parrent {
+	position: absolute;
+	top: 0;
+	margin-top: 1%;
+	margin-left: 4.1%;
+	margin-right: 0.1%;
+	border: solid;
+	border-color: black;
+	width: 90%;
+	height: 95vh;
+	border-radius: 0.3vw;
+	background-color: white;
+}
+
+
+
+
+.name {
+	resize: horizontal;
+	margin-left: 4%;
+	margin-top: 3vh;
+	font-size: 4vh;
+	width: 60%;
+	height: 6vh;
+	font-family: Poppins;
+	display: block;
+}
+
+/*.email {
+	margin-top: 4%;
+}*/
+
+
+.checkbox {
+	margin-left: 4%;
+	margin-top: 2vh;
+	font-size: 1.5vw;
+	font-family: Poppins;
+}
+
+
+.checkbox2 {
+	margin-top: -0.13%;
+	vertical-align: top;
+	height: 1.2vw;
+}
+
+.span-checkbox {
+	color: blue;
+}
+
+textarea {
+	width: 60%;
+	height: 12vh;
+	resize: none;
+	margin-left: 4%;
+	margin-top: 3%;
+	font-size: 2vw;
+	border-radius: 0.4vw;
+}
+
+
+.button {
+	border: solid;
+	 border-width: 0.01vw;
+	position: relative;
+	box-sizing: border-box;
+	display: block;
+	font-size: 2vw;
+	width: 20%;
+	height: 4vw;
+	margin-top: 2%;
+	margin-left: 4%;
+	background-color: black;
+	border-radius: 0.3vw;
+	border-color: black;
+	text-align: center;
+	padding-top: 1.1%;
+	text-decoration: none;
+	color: white;
+}
+
+
+.button:hover {
+	transition-duration: 0.3s;
+	border: solid;
+	 border-width: 0.01vw;
+	position: relative;
+	box-sizing: border-box;
+	display: block;
+	font-size: 2vw;
+	width: 20%;
+	height: 4vw;
+	margin-top: 2%;
+	margin-left: 4%;
+	background-color: white;
+	border-radius: 0.3vw;
+	border-color: black;
+	text-align: center;
+	padding-top: 1.1%;
+	text-decoration: none;
+	color: black;
+}
+
+
+
+
+
+/*კონტაქტის ფორმა*/
+
+
+.cont-text-parrent {
+	margin-left: 5%;
+	margin-top: 10%;
+	display: inline-block;
+}
+
+.cont-parrent {
+	margin-top: 5%;
+}
+
+.con-title {
+	font-size: 3vw;
+}
+
+.cont {
+	font-size: 3vw;
+}
+
+.cont1 {
+	margin-top: 1%;
+	font-size: 2vw;
+}
+
+
+
+.button-h {
+	border: solid;
+	 border-width: 0.01vw;
+	position: relative;
+	box-sizing: border-box;
+	display: block;
+	font-size: 2vw;
+	width: 20%;
+	height: 4vw;
+	margin-top: 3%;
+	margin-left: 0.1%;
+	background-color: black;
+	border-radius: 0.3vw;
+	border-color: black;
+	text-align: center;
+	padding-top: 2.2%;
+	text-decoration: none;
+	color: white;
+}
+
+
+.button-h:hover {
+	transition-duration: 0.3s;
+	border: solid;
+	 border-width: 0.01vw;
+	position: relative;
+	box-sizing: border-box;
+	display: block;
+	font-size: 2vw;
+	width: 20%;
+	height: 4vw;
+	margin-top: 3%;
+	margin-left: 0.1%;
+	background-color: white;
+	border-radius: 0.3vw;
+	border-color: black;
+	text-align: center;
+	padding-top: 2.2%;
+	text-decoration: none;
+	color: black;
+}
+
+.gmap {
+	vertical-align: top;
+	display: inline-block;
+	margin-left: 2%;
+	margin-top: 7%;
+	width: 50%;
+}
+
+iframe {
+	height: 33vw;
+	width: 100%;
+}
+
+
+
+@media only screen and (max-width: 700px) {
+
+              
+
+
+                
+
+
+/*რეგისტრაციის ფორმა*/
+
+.body-form {
+  width: 100%;
+  height: 90vw;
+  background-color: #c3ded8;
+}
+
+input {
+	/*border-radius: 0.8vw;*/
+}
+
+.form-parrent {
+	position: relative;
+}
+
+.form-background {
+	width: 100%;
+  height: 53vw;
+}
+
+.title {
+	font-size: 6vw;
+	margin-top: 3%;
+	margin-left: 4%;
+	font-family: Poppins;
+}
+
+
+.r-content {
+	margin-top: 10vh;
+}
+
+
+
+.div-parrent {
+	position: absolute;
+	top: 0;
+	margin-top: 1%;
+	margin-left: 4.1%;
+	margin-right: 0.1%;
+	border: solid;
+	border-color: black;
+	width: 90%;
+	height: 85vh;
+	border-radius: 0.3vw;
+	background-color: white;
+}
+
+
+
+
+.name {
+	resize: horizontal;
+	margin-left: 4%;
+	margin-top: 3vh;
+	font-size: 1.5vh;
+	width: 80%;
+	height: 4vh;
+	font-family: Poppins;
+	display: block;
+}
+
+.email {
+	margin-top: 4%;
+}
+
+
+.checkbox {
+	margin-left: 4%;
+	margin-top: 5vh;
+	font-size: 1vw;
+	font-family: Poppins;
+}
+
+
+.lab-s {
+	font-size: 1.5vw;
+	vertical-align: top;
+}
+
+
+.checkbox2 {
+	vertical-align: top;
+	height: 1.6vw;
+	margin-top: -0.1%;
+}
+
+.span-checkbox {
+	color: blue;
+}
+
+textarea {
+	width: 80%;
+	height: 9vh;
+	resize: none;
+	margin-left: 4%;
+	margin-top: 3%;
+	font-size: 4vw;
+	border-radius: 0.4vw;
+}
+
+
+.button {
+	border: solid;
+	 border-width: 0.01vw;
+	position: relative;
+	box-sizing: border-box;
+	display: block;
+	font-size: 4vw;
+	width: 30%;
+	height: 6vw;
+	margin-top: 2%;
+	margin-left: 4%;
+	background-color: black;
+	border-radius: 0.3vw;
+	border-color: black;
+	text-align: center;
+	padding-top: 1.1%;
+	text-decoration: none;
+	color: white;
+}
+
+
+.button:hover {
+    border: solid;
+	border-width: 0.01vw;
+	position: relative;
+	box-sizing: border-box;
+	display: block;
+	font-size: 4vw;
+	width: 30%;
+	height: 6vw;
+	margin-top: 2%;
+	margin-left: 4%;
+	background-color: white;
+	border-radius: 0.3vw;
+	border-color: black;
+	text-align: center;
+	padding-top: 1.1%;
+	text-decoration: none;
+	color: black;
+}
+
+
+
+
+
+
+/*კონტაქტის ფორმა*/
+
+
+.cont-text-parrent {
+	margin-left: 4%;
+	margin-right: 4%;
+	margin-top: 10%;
+	display: inline-block;
+}
+
+.cont-parrent {
+	margin-top: 5%;
+}
+
+.con-title {
+	font-size: 7vw;
+}
+
+.cont {
+	font-size: 5vw;
+}
+
+.cont1 {
+	margin-top: 1%;
+	font-size: 4vw;
+}
+
+
+
+.button-h {
+	border: solid;
+	 border-width: 0.01vw;
+	position: relative;
+	box-sizing: border-box;
+	display: block;
+	font-size: 3vw;
+	width: 25%;
+	height: 5vw;
+	margin-top: 5%;
+	margin-left: 0.1%;
+	background-color: black;
+	border-radius: 0.3vw;
+	border-color: black;
+	text-align: center;
+	padding-top: 1.5%;
+	text-decoration: none;
+	color: white;
+}
+
+
+.button-h:hover {
+	transition-duration: 0.3s;
+	border: solid;
+	border-width: 0.01vw;
+	position: relative;
+	box-sizing: border-box;
+	display: block;
+	font-size: 3vw;
+	width: 25%;
+	height: 5vw;
+	margin-top: 5%;
+	margin-left: 0.1%;
+	background-color: white;
+	border-radius: 0.3vw;
+	border-color: black;
+	text-align: center;
+	padding-top: 1.5%;
+	text-decoration: none;
+	color: black;
+}
+
+.gmap {
+	vertical-align: top;
+	display: block;
+	margin-left: 3%;
+	margin-left: 3%;
+	margin-top: 7%;
+	width: 80%;
+}
+
+iframe {
+	height: 40vw;
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+{
